@@ -47,7 +47,7 @@ const Location = ({ config }: LocationProps) => {
           <b>Nhà trai: </b> Số 5 - Ngách 58/1 đường Đình Xuyên - Huyện Gia Lâm- Thành phố Hà Nội
           <br />
           <br />
-          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d465.3622132562445!2d105.93629049301485!3d21.07674746137864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zU-G7kSA1IE5nw7UgNTgsIMSQw6xuaCBYdXnDqm4sIEdpYSBMw6JtLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1700804158227!5m2!1svi!2s"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3722.8977927304086!2d105.936004!3d21.076744!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDA0JzM2LjMiTiAxMDXCsDU2JzA5LjYiRQ!5e0!3m2!1svi!2s!4v1700838676569!5m2!1svi!2s"
                   loading="lazy" width='97%' height='400'
                   referrerPolicy="no-referrer-when-downgrade"></iframe>
           <b>Nhà gái: </b> Cầu Luận Hùng An Kim Động Hưng Yên - Hùng An - Kim Động - Hưng Yên
