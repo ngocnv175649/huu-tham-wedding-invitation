@@ -35,7 +35,7 @@ const Gallery = ({ config }: GalleryProps) => {
     <section
       ref={ref}
       style={{
-        height: '100vh',
+        height: '120vh',
         background: onScreen ? '#212121' : '#EFEBE9',
         overflow: 'hidden',
         position: 'relative',
