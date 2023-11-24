@@ -72,8 +72,6 @@ const Title = ({ config }: TitleProps) => {
           </TitleLayout>
           <SubTitleLayout>
             {config.weddingDate}
-            <br />
-            {config.weddingLocation}
           </SubTitleLayout>
         </Layout>
         <ImageLayout>
