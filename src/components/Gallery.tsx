@@ -45,7 +45,7 @@ const Gallery = ({ config }: GalleryProps) => {
       <Layout>
         <Title style={{textAlign: 'center', color: '#f0a6f1'}}>Memorable moment</Title>
       </Layout>
-      <Row gutter={[16, 16]}>
+      <Row gutter={[16, 6]} style={{paddingLeft: 10, paddingRight: 20}}>
         {config.galleryImages.map((image, index) => (
           <Col key={index} span={isPortrait ? 6 : 3}>
             <Image width={isPortrait ? width / 4 - 10 : width / 8 - 10} height={"100%"} style={{objectFit: "cover"}} src={image} />
