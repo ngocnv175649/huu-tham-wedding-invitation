@@ -48,7 +48,7 @@ const Gallery = ({ config }: GalleryProps) => {
       <Row gutter={[16, 16]}>
         {config.galleryImages.map((image, index) => (
           <Col key={index} span={isPortrait ? 6 : 3}>
-            <Image width={isPortrait ? width / 4 - 10 : width / 8 - 10} height={"100%"} style={{objectFit: "cover"}} src={image} />
+            <Image width={isPortrait ? width / 4 - 10 : width / 8 - 10} height={"100%"} style={{objectFit: }} src={image} />
           </Col>
         ))}
       </Row>
