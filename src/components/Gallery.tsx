@@ -43,7 +43,7 @@ const Gallery = ({ config }: GalleryProps) => {
       }}
     >
       <Layout>
-        <Title>우리의 아름다운 순간</Title>
+        <Title style={{textAlign: 'center', color: '#f0a6f1'}}>Memorable moment</Title>
       </Layout>
       <Row gutter={[16, 16]}>
         {config.galleryImages.map((image, index) => (

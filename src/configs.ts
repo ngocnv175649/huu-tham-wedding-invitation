@@ -20,20 +20,12 @@ const Configs: ConfigsType = {
   weddingDate: 'Ngày 02 tháng 12 năm 2023',
   weddingLocation: 'Đình Xuyên - Gia Lâm - Hà Nội',
   groom: {
-    name: 'Hữu',
-    accountNumber: '○○은행 ***-***-******',
     fatherName: 'Hoà',
     fatherAccountNumber: '○○은행 ***-***-******',
-    motherName: 'Hà',
-    motherAccountNumber: '○○은행 ***-***-******',
   },
   bride: {
-    name: 'Thắm',
-    accountNumber: '○○은행 ***-***-******',
     fatherName: '○○○',
     fatherAccountNumber: '○○은행 ***-***-******',
-    motherName: '○○○',
-    motherAccountNumber: '○○은행 ***-***-******',
   },
   titleImage: TitleImage,
   locationMapImage: LocationMapImage,
@@ -67,12 +59,8 @@ export type ConfigsType = {
 };
 
 type Person = {
-  name: string;
-  accountNumber: string;
   fatherName?: string;
   fatherAccountNumber?: string;
-  motherName?: string;
-  motherAccountNumber?: string;
 };
 
 export default Configs;

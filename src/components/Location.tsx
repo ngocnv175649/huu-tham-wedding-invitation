@@ -12,7 +12,7 @@ const Section = styled('section', {
 
 const Layout = styled('div', {
   width: '100%',
-  padding: isPortrait ? '20% 0% 15% 5%' : '5% 0% 5% 10%',
+  padding: isPortrait ? '20% 0% 5% 5%' : '5% 0% 5% 5%',
 });
 
 const Title = styled('p', {
@@ -50,10 +50,10 @@ const Location = ({ config }: LocationProps) => {
           <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d465.3622132562445!2d105.93629049301485!3d21.07674746137864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zU-G7kSA1IE5nw7UgNTgsIMSQw6xuaCBYdXnDqm4sIEdpYSBMw6JtLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1700804158227!5m2!1svi!2s"
                   loading="lazy" width='97%' height='400'
                   referrerPolicy="no-referrer-when-downgrade"></iframe>
-          <b>Nhà gái: </b> Số 5 - Ngách 58/1 đường Đình Xuyên - Huyện Gia Lâm- Thành phố Hà Nội
+          <b>Nhà gái: </b> Cầu Luận Hùng An Kim Động Hưng Yên - Hùng An - Kim Động - Hưng Yên
           <br />
           <br />
-          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d465.3622132562445!2d105.93629049301485!3d21.07674746137864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zU-G7kSA1IE5nw7UgNTgsIMSQw6xuaCBYdXnDqm4sIEdpYSBMw6JtLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1700804158227!5m2!1svi!2s"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.2880458599457!2d106.0159887!3d20.739116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135b85f9a0b0403%3A0x56ca9aac9decde9!2zQ-G6p3UgTHXhuq1uIEjDuW5nIEFuIEtpbSDEkOG7mW5nIEjGsG5nIFnDqm4!5e0!3m2!1svi!2s!4v1700828227829!5m2!1svi!2s"
                   loading="lazy" width='97%' height='400'
                   referrerPolicy="no-referrer-when-downgrade"></iframe>
         </SubTitle>
