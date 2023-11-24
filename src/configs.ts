@@ -19,7 +19,7 @@ import QRHuu from './resources/QR-Huu.png';
 import QRTham from './resources/QR-Tham.png';
 
 const Configs: ConfigsType = {
-  weddingDate: 'Ngày 02 tháng 12 năm 2023',
+  weddingDate: 'Ngày 03 tháng 12 năm 2023',
   weddingLocation: 'Đình Xuyên - Gia Lâm - Hà Nội',
   groom: {
     fatherName: 'Hoà',

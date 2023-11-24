@@ -23,7 +23,7 @@ function App() {
           textAlign: 'center',
         }}
       >
-        Hữu ❤️ Thắm - 02.12.2023
+        Hữu ❤️ Thắm - 03.12.2023
       </Footer>
     </main>
   );
