@@ -48,17 +48,27 @@ const Greeting = ({ config }: GreetingProps) => {
       }}
     >
       <Layout>
-        <Title style={{textAlign: 'center'}}>Event</Title>
+        <Title style={{textAlign: 'center'}}>Sự kiện</Title>
         <SubTitle style={{textAlign: 'center'}}>
           <div>Trân trọng báo tin</div>
           <div><b>Lễ thành hôn</b> của chúng tôi</div>
           <br/>
           <Row gutter={[16, 16]}>
             <Col span={isPortrait ? 23: 12}>
-              <div>Dự tiệc</div>
+              <div style={{ border: '1px solid black', padding: '10px', borderRadius: '10px' }}>
+                <Title style={{fontSize: '1.5em' }}>Lễ thành hôn</Title>
+                <div>Ngày 03 tháng 12 năm 2023</div>
+                <div>Tại nhà trai lúc: 07:00 sáng</div>
+                <div>Tại nhà gái lúc: 08:00 sáng</div>
+              </div>
             </Col>
             <Col span={isPortrait ? 23: 12}>
-              <div>Đám cưới</div>
+              <div style={{ border: '1px solid black', padding: '10px', borderRadius: '10px' }}>
+                <Title style={{fontSize: '1.5em' }}>Tiệc cưới</Title>
+                <div>Ngày 03 tháng 12 năm 2023</div>
+                <div>Tại nhà trai lúc: 17:00 chiều</div>
+                <div>Tại nhà gái lúc: 07:00 sáng</div>
+              </div>
             </Col>
           </Row>
         </SubTitle>
