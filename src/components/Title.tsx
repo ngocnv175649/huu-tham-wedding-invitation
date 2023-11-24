@@ -18,6 +18,8 @@ const Layout = styled('div', {
   textAlign: 'center',
   marginTop: '3.5%',
   animation: 'fadein 2.5s',
+  position: 'absolute',
+  zIndex: 2
 });
 
 const TitleLayout = styled('p', {
