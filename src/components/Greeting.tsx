@@ -14,7 +14,6 @@ const Layout = styled('div', {
 const Title = styled('p', {
   color: '#795548',
   width: '100%',
-  fontSize: isPortrait ? '2.5em' : '3.5em',
   margin: 0,
   fontWeight: '500',
 });
@@ -40,7 +39,7 @@ const Greeting = ({ config }: GreetingProps) => {
     <section
       ref={ref}
       style={{
-        height: '100vh',
+        height: isPortrait ? '90vh' : '90vh',
         background: onScreen ? '#EFEBE9' : '#DADADA',
         overflow: 'hidden',
         position: 'relative',
@@ -48,10 +47,11 @@ const Greeting = ({ config }: GreetingProps) => {
       }}
     >
       <Layout>
-        <Title style={{textAlign: 'center'}}>Sự kiện</Title>
-        <SubTitle style={{textAlign: 'center'}}>
+        <Title style={{textAlign: 'center', fontSize: isPortrait ? '2.0em' : '3.5em'}} >
           <div>Trân trọng báo tin</div>
           <div><b>Lễ thành hôn</b> của chúng tôi</div>
+        </Title>
+        <SubTitle style={{textAlign: 'center'}}>
           <br/>
           <Row gutter={[16, 16]}>
             <Col span={isPortrait ? 23: 12}>
@@ -71,6 +71,7 @@ const Greeting = ({ config }: GreetingProps) => {
               </div>
             </Col>
           </Row>
+          <div style={{padding: '20px'}}>Rất hân hạnh được đón tiếp!</div>
         </SubTitle>
       </Layout>
     </section>
