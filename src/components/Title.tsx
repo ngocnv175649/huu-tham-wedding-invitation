@@ -43,7 +43,7 @@ const ImageLayout = styled('div', {
 });
 
 const Image = styled('img', {
-  width: isPortrait ? '100%' : '40%',
+  width: isPortrait ? '100%' : '23%',
 });
 
 type TitleProps = {
