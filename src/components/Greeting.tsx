@@ -48,8 +48,8 @@ const Greeting = ({ config }: GreetingProps) => {
     >
       <Layout>
         <Title style={{textAlign: 'center', fontSize: isPortrait ? '2.0em' : '3.5em'}} >
-          <div>Trân trọng báo tin</div>
-          <div><b>Lễ thành hôn</b> của chúng tôi</div>
+          <div>Trân trọng kính mời</div>
+          <div>Tới dự <b>lễ thành hôn</b> của chúng tôi</div>
         </Title>
         <SubTitle style={{textAlign: 'center'}}>
           <br/>
