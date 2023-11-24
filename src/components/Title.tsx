@@ -18,19 +18,20 @@ const Layout = styled('div', {
   textAlign: 'center',
   marginTop: '3.5%',
   animation: 'fadein 2.5s',
+  position: 'absolute',
+  zIndex: 2
 });
 
-const TitleLayout = styled('p', {
+const TitleLayout = styled('div', {
   width: '100%',
   fontSize: isPortrait ? '2.5em' : '3.5em',
   margin: 0,
   fontWeight: '500',
 });
 
-const SubTitleLayout = styled('p', {
+const SubTitleLayout = styled('div', {
   width: '100%',
   fontSize: isPortrait ? '1.2em' : '2em',
-  margin: '24px 0',
   fontWeight: '300',
 });
 
@@ -66,11 +67,11 @@ const Title = ({ config }: TitleProps) => {
       />
       <Section>
         <Layout>
-          <SubTitleLayout>WEDDING INVITATION</SubTitleLayout>
+          <SubTitleLayout style={isPortrait ? {margin: '24px 0'}: {}}>WEDDING INVITATION</SubTitleLayout>
           <TitleLayout>
             Hữu &amp; Thắm
           </TitleLayout>
-          <SubTitleLayout>
+          <SubTitleLayout style={isPortrait ? {margin: '24px 0'}: {}}>
             {config.weddingDate}
           </SubTitleLayout>
         </Layout>
