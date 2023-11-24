@@ -2,12 +2,13 @@ import { useRef } from 'react';
 import { styled } from '@stitches/react';
 import useOnScreen from '../hooks/useOnScreen';
 import { ConfigsType } from '../configs';
+import { Col, Row } from 'antd';
 
 const isPortrait = window.matchMedia('(orientation: portrait)').matches;
 
 const Layout = styled('div', {
   width: '100%',
-  padding: isPortrait ? '30% 0% 15% 5%' : '5% 0% 5% 10%',
+  padding: isPortrait ? '20% 0% 5% 5%' : '5% 5% 5% 5%',
 });
 
 const Title = styled('p', {
@@ -47,8 +48,19 @@ const Greeting = ({ config }: GreetingProps) => {
       }}
     >
       <Layout>
-        <Title>결혼합니다</Title>
-        <SubTitle>
+        <Title style={{textAlign: 'center'}}>Event</Title>
+        <SubTitle style={{textAlign: 'center'}}>
+          <div>Trân trọng báo tin</div>
+          <div><b>Lễ thành hôn</b> của chúng tôi</div>
+          <br/>
+          <Row gutter={[16, 16]}>
+            <Col span={isPortrait ? 23: 12}>
+              <div>Dự tiệc</div>
+            </Col>
+            <Col span={isPortrait ? 23: 12}>
+              <div>Đám cưới</div>
+            </Col>
+          </Row>
         </SubTitle>
       </Layout>
     </section>
