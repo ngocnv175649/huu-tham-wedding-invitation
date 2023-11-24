@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/huu-tham-wedding-invitation/static/css/main.b57544cc.css",
-    "main.js": "/huu-tham-wedding-invitation/static/js/main.be19a120.js",
-    "static/js/787.37a0c37e.chunk.js": "/huu-tham-wedding-invitation/static/js/787.37a0c37e.chunk.js",
-    "static/media/Title.png": "/huu-tham-wedding-invitation/static/media/Title.e6dbc5d1ded6b8cde601.png",
-    "static/media/Gallery_Photo_1.png": "/huu-tham-wedding-invitation/static/media/Gallery_Photo_1.6cc935afe301af47d5f0.png",
-    "static/media/Gallery_Photo_6.png": "/huu-tham-wedding-invitation/static/media/Gallery_Photo_6.0806ef8d008061ea1e9c.png",
-    "static/media/Gallery_Photo_4.png": "/huu-tham-wedding-invitation/static/media/Gallery_Photo_4.c4d5e380f97dca936979.png",
-    "static/media/Gallery_Photo_2.png": "/huu-tham-wedding-invitation/static/media/Gallery_Photo_2.4802d9bf2b80ab7091c7.png",
-    "static/media/LocationMap.png": "/huu-tham-wedding-invitation/static/media/LocationMap.8c8fb4ad74dfcbabbb82.png",
-    "static/media/Gallery_Photo_3.png": "/huu-tham-wedding-invitation/static/media/Gallery_Photo_3.6b21a6d82b3bd2e8086f.png",
-    "static/media/Gallery_Photo_5.png": "/huu-tham-wedding-invitation/static/media/Gallery_Photo_5.35bfdd4a27da0bb9af41.png",
-    "index.html": "/huu-tham-wedding-invitation/index.html",
-    "main.b57544cc.css.map": "/huu-tham-wedding-invitation/static/css/main.b57544cc.css.map",
-    "main.be19a120.js.map": "/huu-tham-wedding-invitation/static/js/main.be19a120.js.map",
-    "787.37a0c37e.chunk.js.map": "/huu-tham-wedding-invitation/static/js/787.37a0c37e.chunk.js.map"
+    "main.css": "/static/css/main.b57544cc.css",
+    "main.js": "/static/js/main.04aceb69.js",
+    "static/js/787.37a0c37e.chunk.js": "/static/js/787.37a0c37e.chunk.js",
+    "static/media/Title.png": "/static/media/Title.e6dbc5d1ded6b8cde601.png",
+    "static/media/Gallery_Photo_1.png": "/static/media/Gallery_Photo_1.6cc935afe301af47d5f0.png",
+    "static/media/Gallery_Photo_6.png": "/static/media/Gallery_Photo_6.0806ef8d008061ea1e9c.png",
+    "static/media/Gallery_Photo_4.png": "/static/media/Gallery_Photo_4.c4d5e380f97dca936979.png",
+    "static/media/Gallery_Photo_2.png": "/static/media/Gallery_Photo_2.4802d9bf2b80ab7091c7.png",
+    "static/media/LocationMap.png": "/static/media/LocationMap.8c8fb4ad74dfcbabbb82.png",
+    "static/media/Gallery_Photo_3.png": "/static/media/Gallery_Photo_3.6b21a6d82b3bd2e8086f.png",
+    "static/media/Gallery_Photo_5.png": "/static/media/Gallery_Photo_5.35bfdd4a27da0bb9af41.png",
+    "index.html": "/index.html",
+    "main.b57544cc.css.map": "/static/css/main.b57544cc.css.map",
+    "main.04aceb69.js.map": "/static/js/main.04aceb69.js.map",
+    "787.37a0c37e.chunk.js.map": "/static/js/787.37a0c37e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b57544cc.css",
-    "static/js/main.be19a120.js"
+    "static/js/main.04aceb69.js"
   ]
 }
