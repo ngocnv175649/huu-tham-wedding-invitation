@@ -15,6 +15,8 @@ import GalleryPhoto12 from './resources/Image_12.jpg';
 import GalleryPhoto13 from './resources/Image_13.jpg';
 import GalleryPhoto14 from './resources/Image_14.jpg';
 import GalleryPhoto15 from './resources/Image_15.jpg';
+import QRHuu from './resources/QR-Huu.png';
+import QRTham from './resources/QR-Tham.png';
 
 const Configs: ConfigsType = {
   weddingDate: 'Ngày 02 tháng 12 năm 2023',
@@ -46,6 +48,8 @@ const Configs: ConfigsType = {
     GalleryPhoto14,
     GalleryPhoto15
   ],
+  qrHuu: QRHuu,
+  qrTham: QRTham
 };
 
 export type ConfigsType = {
@@ -56,6 +60,8 @@ export type ConfigsType = {
   titleImage: string;
   locationMapImage: string;
   galleryImages: string[];
+  qrHuu: string;
+  qrTham: string;
 };
 
 type Person = {

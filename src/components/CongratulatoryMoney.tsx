@@ -1,5 +1,5 @@
 import { styled } from '@stitches/react';
-import { Button, Divider, message, Modal } from 'antd';
+import { Button, Divider, Image, message, Modal } from 'antd';
 import { useState } from 'react';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import { ConfigsType } from '../configs';
@@ -86,6 +86,7 @@ const CongratulatoryMoney = ({ config }: CongratulatoryMoneyProps) => {
               {'3656886867996'}
             </Button>
           </CopyToClipboard>
+          <Image src={config.qrHuu} preview={false} />
         </div>
       </Modal>
       <Modal
@@ -99,15 +100,16 @@ const CongratulatoryMoney = ({ config }: CongratulatoryMoneyProps) => {
       >
         <div style={{ textAlign: 'center'}}>
           <div><b>NGUYEN THI THAM</b></div>
-          <div>TPBank</div>
-          <CopyToClipboard text={'0898581868'}>
+          <div>Techcombank</div>
+          <CopyToClipboard text={'19034691755013'}>
             <Button
               type="text"
               onClick={() => message.success('Số tài khoản đã được sao chép.')}
             >
-              {'0898581868'}
+              {'19034691755013'}
             </Button>
           </CopyToClipboard>
+          <Image src={config.qrTham} preview={false} />
         </div>
       </Modal>
     </Section>
