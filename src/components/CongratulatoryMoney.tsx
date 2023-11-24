@@ -76,16 +76,16 @@ const CongratulatoryMoney = ({ config }: CongratulatoryMoneyProps) => {
         footer={[<Description>Bấm vào số tài khoản để sao chép.</Description>]}
       >
         <div style={{ textAlign: 'center'}}>
-          <div><b>NGUYEN VAN HUU</b></div>
-          <div>MBBank</div>
+          <div><b>Tên chủ TK: NGUYEN VAN HUU</b></div>
           <CopyToClipboard text={'3656886867996'}>
             <Button
               type="text"
               onClick={() => message.success('Số tài khoản đã được sao chép.')}
             >
-              {'3656886867996'}
+              {'Số TK: 3656886867996'}
             </Button>
           </CopyToClipboard>
+          <div>Ngân hàng TMCP Quân đội (MBBank)</div>
           <Image src={config.qrHuu} preview={false} />
         </div>
       </Modal>
@@ -99,16 +99,16 @@ const CongratulatoryMoney = ({ config }: CongratulatoryMoneyProps) => {
         footer={[<Description>Bấm vào số tài khoản để sao chép.</Description>]}
       >
         <div style={{ textAlign: 'center'}}>
-          <div><b>NGUYEN THI THAM</b></div>
-          <div>Techcombank</div>
+          <div><b>Tên chủ TK: NGUYEN THI THAM</b></div>
           <CopyToClipboard text={'19034691755013'}>
             <Button
               type="text"
               onClick={() => message.success('Số tài khoản đã được sao chép.')}
             >
-              {'19034691755013'}
+              {'Số TK: 19034691755013'}
             </Button>
           </CopyToClipboard>
+          <div>Ngân hàng TMCP Kỹ thương Việt Nam (Techcombank)</div>
           <Image src={config.qrTham} preview={false} />
         </div>
       </Modal>
