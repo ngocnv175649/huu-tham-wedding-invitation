@@ -47,7 +47,7 @@ const Greeting = () => {
       }}
     >
       <Layout>
-        <Title style={{textAlign: 'center', fontSize: isPortrait ? '2.0em' : '3.5em'}} >
+        <Title style={{textAlign: 'center', fontSize: isPortrait ? '2.0em' : '2.5em'}} >
           <div>Trân trọng kính mời</div>
           <div>Đến dự</div>
           <b>Lễ thành hôn và tiệc cưới</b>
