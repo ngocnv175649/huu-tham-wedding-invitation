@@ -5,7 +5,7 @@ import Location from './components//Location';
 import CongratulatoryMoney from './components//CongratulatoryMoney';
 import Configs from './configs';
 import { Layout } from 'antd';
-import ReactHowler from 'react-howler'
+import AudioPlayer from './components/AudioPlayer';
 
 const { Footer } = Layout;
 
@@ -26,11 +26,7 @@ function App() {
       >
         Hữu ❤️ Thắm - 03.12.2023
       </Footer>
-      <ReactHowler
-        src={Configs.music}
-        playing={true}
-        loop={true}
-      />
+      <AudioPlayer config={Configs} />;
     </main>
   );
 }
