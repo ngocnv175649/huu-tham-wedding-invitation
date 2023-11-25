@@ -17,6 +17,7 @@ import GalleryPhoto14 from './resources/Image_14.jpg';
 import GalleryPhoto15 from './resources/Image_15.jpg';
 import QRHuu from './resources/QR-Huu.png';
 import QRTham from './resources/QR-Tham.png';
+import Music from './resources/music.mp3';
 
 const Configs: ConfigsType = {
   weddingDate: 'Ngày 03 tháng 12 năm 2023',
@@ -49,7 +50,8 @@ const Configs: ConfigsType = {
     GalleryPhoto15
   ],
   qrHuu: QRHuu,
-  qrTham: QRTham
+  qrTham: QRTham,
+  music: Music,
 };
 
 export type ConfigsType = {
@@ -62,6 +64,7 @@ export type ConfigsType = {
   galleryImages: string[];
   qrHuu: string;
   qrTham: string;
+  music: string;
 };
 
 type Person = {
