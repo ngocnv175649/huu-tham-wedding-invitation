@@ -39,7 +39,7 @@ const Greeting = () => {
     <section
       ref={ref}
       style={{
-        height: isPortrait ? '90vh' : '90vh',
+        height: '100vh',
         background: onScreen ? '#EFEBE9' : '#DADADA',
         overflow: 'hidden',
         position: 'relative',
@@ -49,7 +49,9 @@ const Greeting = () => {
       <Layout>
         <Title style={{textAlign: 'center', fontSize: isPortrait ? '2.0em' : '3.5em'}} >
           <div>Trân trọng kính mời</div>
-          <div>Tới dự <b>lễ thành hôn</b> của chúng tôi</div>
+          <div>Đến dự</div>
+          <b>Lễ thành hôn và tiệc cưới</b>
+          <div>của chúng tôi</div>
         </Title>
         <SubTitle style={{textAlign: 'center'}}>
           <br/>
